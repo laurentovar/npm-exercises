@@ -1,10 +1,8 @@
-// import $ from 'jquery';
-
 const $ = require('jquery');
-const sayHello = () => console.log('hello there');
+const sayHello = () => console.log('Hello there!');
 
 sayHello();
 
-$('body').css('background-color', '#0f6367').html('<h1>Hello nmp!</h1>').css('color', "white");
+$('body').css('background-color', '#0f6367').html('<h1>Hello from nmp!</h1>').css('color', "white");
 
 
