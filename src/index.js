@@ -16,3 +16,13 @@ console.log(cart.thing.weight);
 //import the nice message from the say-hello file
 import {niceMessage} from "./say-hello";
 
+
+//this makes the niceMessage popup on the screen
+// $('body').css('background-color', '#FF4571').html('<h1>${niceMessage ()}</h1>').css('color', "white");
+
+
+//using a require
+const $ = require('jquery');
+const niceMessage = require('./say-hello.js');
+
+// $('body').css('background-color', '#FF4571').html('<h1>${niceMessage ()}</h1>').css('color', "white");
